@@ -98,7 +98,7 @@ export default {
           this.move(obj.mEmployeeID, obj.preSupervisor)
         }
         if(obj.name === 'add') {
-          this.remove(obj.newEmployee.uniqueId)
+          this.addRedo(obj)
         }
       }
     },
